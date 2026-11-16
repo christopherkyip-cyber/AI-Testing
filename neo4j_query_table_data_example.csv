@@ -1,0 +1,55 @@
+Concept,Description
+If Statement,The if statement executes a block of code only when its condition evaluates to True. It is used to make decisions within a program.
+Indentation In If Statements,"Python uses indentation to define the block of code that belongs to an if statement. Consistent indentation is required, otherwise a syntax error occurs. Indentation refers to the spaces at the beginning of a line of code. Python uses indentation to define blocks of code, making it an essential part of Python syntax. A block must contain consistent indentation, and at least one space is required. Four spaces is the most commonly used indentation. Incorrect or inconsistent indentation causes an error."
+Logical Operators,"Logical operators combine or modify multiple Boolean expressions. Python provides the and, or and not operators for building more complex conditions."
+And Operator,"The and operator returns True only if all connected conditions evaluate to True. If any condition is False, the overall result is False."
+Or Operator,The or operator returns True if at least one connected condition evaluates to True. It returns False only when all conditions are False.
+Not Operator,"The not operator reverses the Boolean value of a condition, changing True to False and False to True."
+Addition,The addition operator (+) adds two numeric values together and returns their sum.
+Subtraction,The subtraction operator (-) subtracts one value from another and returns the difference.
+Multiplication,The multiplication operator (*) multiplies two numeric values and returns the product.
+Division,The division operator (/) divides one value by another and always returns a floating-point result.
+Modulus,The modulus operator (%) returns the remainder after one number is divided by another. It is commonly used to determine divisibility or cyclic patterns.
+Exponentiation,The exponentiation operator (**) raises the left operand to the power of the right operand.
+Multiple Conditions,"Multiple conditions can be evaluated by combining if, elif, and else statements. Python checks each condition in order and executes the first block whose condition evaluates to True."
+Python Lists,"Lists are used to store multiple items in a single variable. They are ordered, changeable (mutable), and allow duplicate values. Lists are one of Pythons built-in data types for storing collections of data."
+List Items,"List items are ordered and indexed, allowing them to be accessed by position. Because lists are mutable, items can be modified after the list is created. Duplicate values are allowed. Lists can store items of any data type, including strings, numbers, booleans, objects, and even other lists. A single list may also contain a mixture of different data types."
+Access List Items,"Individual list items are accessed using their index inside square brackets. Indexing begins at 0, so the first item has an index of 0."
+Check If Item Exists,The in keyword checks whether a specified item exists in a list and returns True or False.
+Change Item Value,"A list item can be modified by assigning a new value to its index. Since lists are mutable, the original value is replaced."
+Append Items,The append() method adds a new item to the end of a list.
+Insert Items,The insert() method adds a new item at a specified position in the list while preserving the existing items.
+Remove Specified Item,The remove() method removes the first occurrence of a specified value from a list.
+Remove Specified Index,"The pop() method removes and returns the item at a specified index. If no index is provided, it removes the last item."
+Del Statement,The del statement removes an item at a specified index or deletes an entire list.
+Clear A List,The clear() method removes all items from a list while leaving the empty list object intact.
+Elif Statement,The elif statement allows additional conditions to be checked if the previous if or elif conditions evaluate to False. The first condition that evaluates to True is executed.
+Else Statement,The else statement executes a block of code when none of the preceding if or elif conditions evaluate to True.
+Python User Input,User input allows a Python program to receive data entered by the user while the program is running. The input() function pauses program execution until the user enters a value and presses Enter.
+Input() Function,"The input() function reads user input from the keyboard and returns it as a string, regardless of the type of data entered."
+Prompting The User,A prompt message can be passed to the input() function to tell the user what information to enter before providing input.
+Converting User Input,"Since the input() function always returns a string, type conversion functions such as int() or float() are used to convert the input into numeric data before performing mathematical operations."
+Print Text,"The print() function is used to display text or output values. It can be used multiple times, and each call prints its output on a new line by default."
+Double Quotes,"Text in Python must be placed inside quotes. Either double quotes or single quotes can be used. If text is not placed inside quotes, Python produces a syntax error."
+Print Numbers,"The print() function can be used to display numbers. Unlike text, numbers do not need to be placed inside quotes. Mathematical operations can also be performed directly inside the print() function."
+Mix Text And Numbers,Text and numbers can be combined in a single print() function by separating them with commas.
+Python Variables,Variables in Python are created when a value is assigned to them. Python does not require a separate command to declare a variable.
+Statements,"A computer program consists of instructions that are executed by a computer. In programming languages, these instructions are called statements. In Python, a statement usually ends when the line ends, so a semicolon is normally not required."
+Many Statements,Python programs can contain many statements. Statements are executed one by one in the same order in which they are written.
+Python Conditions,"Conditions allow Python programs to make decisions by evaluating whether an expression is True or False. Conditions are commonly used with if, elif, and else statements to control program flow."
+Boolean Expressions,Conditions are created using expressions that evaluate to either True or False. Comparison operators are commonly used to produce Boolean results for decision making.
+Comparison Operators,"Comparison operators compare two values and return either True or False. Common operators include ==, !=, <, >, <=, and >=."
+Creating Variables,"Variables are created when a value is assigned using the equals sign (=). Python does not require variables to be declared before they are used, and the variableâ€™s type is automatically determined from the assigned value."
+Variable Data Types,"Variables can store values of different data types, including strings, integers, floating-point numbers, and Boolean values. Python automatically assigns the appropriate type based on the value."
+Type Casting,"Type casting is used to specify the data type of a variable explicitly. Functions such as str(), int(), and float() convert values into strings, integers, and floating-point numbers respectively."
+Getting The Data Type,The type() function returns the data type of a variable. It can be used to determine what type of value a variable currently stores.
+Multi-Word Variable Names,"Variable names containing multiple words can be written using different naming conventions. Common styles include camel case (myVariableName), Pascal case (MyVariableName), and snake case (my_variable_name), with snake case being the most commonly used in Python."
+Assigning Multiple Values,Multiple variables can be assigned values in a single statement by separating variables and values with commas. The number of variables must match the number of assigned values.
+Printing Variables,The print() function outputs the value stored in a variable to the console.
+Combining Text And Variables,Strings and variables can be displayed together by separating them with commas in the print() function. Python automatically inserts spaces between comma-separated values.
+Concatenating Strings,String variables and string literals can be joined using the + operator to produce a single combined string.
+Combining Variables,"Variables containing compatible data types can be combined using the + operator. For example, two string variables are concatenated, while two numeric variables are added together."
+String And Number Output,"Strings and numbers cannot be combined directly using the + operator. Attempting to do so results in a type error. To display both together, separate them with commas in print() or convert the number to a string using str()."
+Python Numbers,"Python supports three built-in numeric types: integers (int), floating-point numbers (float), and complex numbers (complex). Numeric values are automatically assigned the appropriate type based on their format."
+Integer (Int),"Integers are whole numbers without a decimal point. They can be positive, negative, or zero and have unlimited length, limited only by the available system memory."
+Float (Float),Floats are numbers containing one or more decimal places. They can also be represented using scientific notation with an exponent.
